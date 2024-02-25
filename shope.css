@@ -1,0 +1,170 @@
+
+/*-------top session-----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.background{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:00px;
+}
+ul{
+    list-style-type: none;
+} 
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    padding: 0.6rem 0;
+    background:  linear-gradient(to right, #141212, #e03a28);
+}
+.navbar{
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top:0rem;
+}
+ul{
+    font-size: 14px;
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+#input{
+    width: 27rem;
+    border: none;
+    height: 25px;
+    
+}
+li{
+    padding: 10px 0;
+    padding-right:28px;
+}
+.input-area{
+    padding-left: px;
+}
+
+/*---------session 2nd--------*/
+
+
+.offer{
+    padding: 6% 10%;
+    font-size: larger;
+    background-image: url(https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.offer h1{
+    font-size: 1.5em;
+    margin-block-end: 10px;
+}
+.offer div{
+    width: 40em;
+    background-color: rgba(0,0,0,0.4);
+    padding: 1.8em 1.8rem;
+}
+
+/*----------session trending--------*/
+
+.container_2{
+    padding: 1% 5%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.Trending{
+    padding: 0.6rem 1rem;
+    width: 95%;
+    background-color:rgba(19, 5, 5, 0.3) ;
+}
+.Trending h3{
+    font-size: 1.6rem;
+    opacity: 0.8;
+
+}
+.shoe_type{
+    display: flex;
+
+}
+.image{
+    border: 0.1rem solid gray;
+    margin-right: 0.3rem;
+    box-shadow: 1px 2px rgb(109, 108, 108);
+    margin-bottom: 0.8rem;
+    /* background-color: red; */
+}
+.image img{
+    width: 8rem;
+    height: 8rem;   
+}
+.image p{
+    background-color: rgb(109, 108, 108);
+    padding-top: 0.3rem;
+    padding-bottom: 0.5rem;
+    color: white;
+}
+
+
+
+
+
+/*------session last-------*/
+
+
+.lastcontainer{
+    overflow: hidden;
+    background: linear-gradient(to left, #000000, #434343);
+   
+}
+.shoe{
+    height: 75%;
+    width: 85%;
+    margin:auto:
+    padding: 10px 20px;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    position: relative;
+    box-shadow: 2px 2px 5px black;
+}
+.jorden-start{
+    color: white;
+    width:40%;
+    height: 500px;
+    margin-left: 20px;   
+
+}
+.jorden-start h2{
+    padding-top: 15px;
+    font-size: 2rem;
+
+}
+.jorden-start p{
+    font-size: 1.2rem;
+    margin-bottom:3rem
+}
+.shoe img{
+    position: absolute;
+    top:2rem;
+    right:1.7rem;
+    border-radius: 50%;
+    width: 290px;
+    height:300px;
+    box-shadow: 6px 4px 7px 2px white;
+}
+.shoe img:hover{
+    height:420px;
+    width:400px;
+}

@@ -1,0 +1,31 @@
+.lastcontainer{
+    overflow: hidden;
+    
+}
+.shoe{
+    height: 75%;
+    width: 85%;
+    margin:auto;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    position: relative;
+    box-shadow: 2px 2px 5px black;
+}
+.jorden-start{
+    
+
+}
+.jorden-start h2{
+    padding-top: 15px;
+    font-size: 2rem;
+
+}
+.jorden-start p{
+    font-size: 1.2rem;
+    margin-bottom:3rem
+}
+.
+.shoe img:hover{
+    height:420px;
+    width:400px;
+}
